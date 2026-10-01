@@ -123,7 +123,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .hero-bg{position:absolute;inset:0;background-size:cover !important;background-position:center 42% !important;z-index:0}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,23,42,.65) 0%,rgba(15,23,42,.35) 100%);z-index:1}
 .hero-content{position:relative;z-index:2;max-width:780px;padding:6rem 1rem 3rem}
-.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.1);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.18);color:var(--teal-200);padding:.5rem 1.25rem;border-radius:9999px;font-weight:600;font-size:.8rem;margin-top:25px !important;margin-bottom:16px !important;animation:float 3s ease-in-out infinite}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.1);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.18);color:var(--teal-200);padding:.5rem 1.25rem;border-radius:9999px;font-weight:600;font-size:.8rem;margin-top:36px !important;margin-bottom:14px !important;overflow:visible !important;animation:float 3s ease-in-out infinite}
 .badge-dot{width:8px;height:8px;border-radius:50%;background:var(--whatsapp);animation:pulse-dot 1.5s infinite}
 .hero-title{font-size:clamp(2rem,7vw,4rem);color:var(--white);font-weight:800;text-shadow:0 2px 12px rgba(0,0,0,.3);margin-bottom:.75rem}
 .hero-title span{display:block;font-size:clamp(1.3rem,4vw,2.2rem);font-weight:600;color:var(--teal-200);margin-top:.25rem}
@@ -374,7 +374,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   /* Hero Background Image Alignment */
   .hero-bg{
     background-size:cover !important;
-    background-position:95% center !important;
+    background-position:18% center !important;
   }
 
   .hero-overlay{background:linear-gradient(180deg,rgba(15,23,42,0.85) 0%,rgba(15,23,42,0.55) 100%)}
