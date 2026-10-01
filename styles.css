@@ -360,8 +360,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   .hero{
     height:auto !important;
     min-height:auto !important;
-    padding-top:110px !important;
-    padding-bottom:40px !important;
+    padding-top:100px !important;
+    padding-bottom:50px !important;
     margin-bottom:0 !important;
     display:flex !important;
     flex-direction:column !important;
@@ -374,14 +374,46 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   /* Hero Background Image Alignment */
   .hero-bg{
     background-size:cover !important;
-    background-position:left 25% !important;
+    background-position:8% 18% !important;
+  }
+
+  .hero h1,
+  .hero-title {
+      font-size: 1.75rem !important;
+      line-height: 1.25 !important;
+      margin-bottom: 8px !important;
+  }
+
+  .hero h2,
+  .hero-subtitle {
+      font-size: 1.05rem !important;
+      margin-bottom: 10px !important;
+  }
+
+  .hero p,
+  .hero-description {
+      font-size: 0.88rem !important;
+      line-height: 1.4 !important;
+      max-width: 320px !important;
+      margin: 0 auto 18px auto !important;
   }
 
   .hero-badge,
   .badge {
-      margin-top: 24px !important;
-      margin-bottom: 12px !important;
+      font-size: 0.78rem !important;
+      padding: 5px 12px !important;
+      margin-top: 12px !important;
+      margin-bottom: 10px !important;
       overflow: visible !important;
+  }
+
+  .hero-cta {
+      gap: 10px !important;
+  }
+
+  .hero-cta .btn {
+      padding: 10px 18px !important;
+      font-size: 0.9rem !important;
   }
 
   .hero-overlay{background:linear-gradient(180deg,rgba(15,23,42,0.85) 0%,rgba(15,23,42,0.55) 100%)}
