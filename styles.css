@@ -374,7 +374,14 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   /* Hero Background Image Alignment */
   .hero-bg{
     background-size:cover !important;
-    background-position:18% center !important;
+    background-position:left 25% !important;
+  }
+
+  .hero-badge,
+  .badge {
+      margin-top: 24px !important;
+      margin-bottom: 12px !important;
+      overflow: visible !important;
   }
 
   .hero-overlay{background:linear-gradient(180deg,rgba(15,23,42,0.85) 0%,rgba(15,23,42,0.55) 100%)}
